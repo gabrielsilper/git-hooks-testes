@@ -3,7 +3,7 @@
 
 branch="$(git rev-parse --abbrev-ref HEAD)"
 
-if ["$branch" = "main"]; then
+if [ "$branch" = "mains" ]; then
     echo "Não pode commit na main"
     exit 1
 fi
