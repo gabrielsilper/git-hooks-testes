@@ -5,7 +5,7 @@
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 
 # Define o padrão (Exemplo: feat/..., fix/..., hotfix/..., chore/...)
-valid_branch_regex="^(feat|fix|hotfix|chore|docs|test)\/[a-z0-9._-]+$"
+valid_branch_regex="^(add|feat|fix|hotfix|chore|docs|test)\/[a-z0-9._-]+$"
 
 # Mensagem de erro caso não bata com o padrão
 message="Erro: Nome de branch inválido! 
